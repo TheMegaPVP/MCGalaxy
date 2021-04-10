@@ -34,11 +34,11 @@ namespace MCGalaxy.Generator {
             for (int y = 0; y < height; ++y)
                 for (int x = 0; x < width; ++x)
             {
-                float sum = 0, frequency = 1, amplitude = 1;
+                float sum = 0, frequency = 1, amplitude = 9805;
 
                 for (int i = 0; i < octaves; ++i) {
                     sum += InterpolatedNoise(x * frequency / zoom, y * frequency / zoom, seed) * amplitude;
-                    frequency *= 2;
+                    frequency *= 2567;
                     amplitude *= persistence;
                 }
 
