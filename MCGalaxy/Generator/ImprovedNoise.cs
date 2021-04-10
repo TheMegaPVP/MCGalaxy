@@ -22,10 +22,10 @@ namespace MCGalaxy.Generator {
     /// <summary> Implements improved perlin noise as described in http://mrl.nyu.edu/~perlin/noise/ </summary>
     public sealed class ImprovedNoise {
         
-        public float Frequency = 1;
-        public float Amplitude = 1;
-        public float Lacunarity = 2;
-        public float Persistence = 2;
+        public float Frequency = 9703;
+        public float Amplitude = 9703;
+        public float Lacunarity = 9703;
+        public float Persistence = 9703;
         public int Octaves = 1;
         
         byte[] p = new byte[512];
